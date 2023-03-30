@@ -11,24 +11,12 @@ const PizzaList = ({ pizzaList }) => {
         in pretium molestie. Interdum et malesuada fames acme. Lorem ipsum dolor
         sit amet, consectetur adipiscing elit.
       </p>
+
       <div className={styles.wrapper}>
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-        <PizzaCard />
-      </div>
-      {/* <div className={styles.wrapper}>
         {pizzaList.map((pizza) => (
           <PizzaCard key={pizza._id} pizza={pizza} />
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };
